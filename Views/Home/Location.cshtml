@@ -1,0 +1,111 @@
+@{
+    ViewData["Title"] = "Location Page";
+}
+
+
+<div class="container">
+  <img src="~/Images/Lake_Placid_Trans.png" alt="Lake Placid Banner" width="100%" border="0" style="margin:0px; padding:0px;">
+
+  <div class="row">
+    <div class="col-sm-3" style="background-color:lightgray">
+      
+          <p>
+            <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
+            <a href="/home" class="menubar">Home</a>
+          </p>
+          <p>
+            <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
+            <a href="@Url.Action("AboutUS", "home")" class="menubar">About Us</a>
+          </p>
+          <p>
+            <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
+            <a href="@Url.Action("Location", "home")" class="menubar">Location</a>
+          </p>
+          <p>
+            <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
+            <a href="@Url.Action("ParkPlan", "home")" class="menubar">Park Plan</a>
+          </p>
+          <p>
+            <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
+            <a href="@Url.Action("Homes", "home")"  class="menubar">Homes Available</a>
+          </p>
+			<p>
+		  <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
+            <a href="@Url.Action("Calendar", "home")"  class="menubar">Calendar</a>
+          </p> 
+		  <p>
+           <!-- <img src="Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">--->
+          <!--  <a href="Announcements.html" class="menubar">Announcements</a>--->
+          </p>
+          <p>
+		       <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
+               <a href="@Url.Action("Rules", "home")" class="menubar">Park Rules</a>
+          </p>
+ 
+         <br>
+          <p>
+            <strong>Lake Placid MHP</strong>
+          </p>
+          <p>
+            980 7th St. NW
+
+            Largo, FL 33770
+          </p>
+                    <!--
+          <p>
+            <a class="menubar" style="font-size:18px;" href="mailto:info@lakeplacidpark.com">info@lakeplacidpark.com</a>
+  <script type="text/javascript" src="http://voap.weather.com/weather/oap/USFL0271?template=TRVLV&par=3000000007&unit=0&key=twciweatherwidget"></script> 
+         </p>
+          <br>
+ 
+          <p style="font-size:12px;">
+          	Site By: <a href="http://www.smdesignstudios.com" class="menubar" style="font-size:12px;">SM Design Studios</a>
+            -->
+    </div>
+    <div class="col-sm-9" style="background-color:lightgray">
+      <!--CONTENT BEGINS HERE-->
+            <!--Image-->
+            <img src="~/Images/Slideshow/4_b.jpg" alt="Lake Placid MHP" height="200" width="700" border="0">
+            <!--Alignment Div-->
+            <div style="padding:0px 10px;">
+              <!--Sub Header-->
+              <h2 align="left" style="margin:5px 0px; padding:0px 0px;">
+                Location
+              </h2>
+              <div align="center">
+              	<img src="~/Images/Google_Map.jpg" alt="Lake Placid Map" height="524" width="635">
+                <h2>
+                  Lake Placid MHP
+                  <br>
+                  980 7th St. NW
+                  <br>
+                  Largo, FL 33770
+                </h2>
+              </div>
+            </div>
+          <!--CONTENT ENDS HERE-->
+    </div>
+ 
+  </div>
+</div>
+
+
+@section Scripts {
+// A $( document ).ready() block.
+    $( document ).ready(function() {
+       // alert('About Us');
+    });
+	// Find the body element to set a style attribute
+
+<script>
+ 
+	// Find the body element to set a style attribute
+
+	var body = document.getElementsByTagName("body")[0];
+    body.style.backgroundColor = "#040720";
+
+</script>
+
+}
+
+ 
