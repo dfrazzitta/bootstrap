@@ -105,6 +105,10 @@
       "PackagePath": "staticwebassets/Images/fwd.png"
     },
     {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/Info/AS-IS.pdf",
+      "PackagePath": "staticwebassets/Info/AS-IS.pdf"
+    },
+    {
       "Id": "/home/dave/c#/bootstrap/wwwroot/Info/Rules.pdf",
       "PackagePath": "staticwebassets/Info/Rules.pdf"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oWNCOQJcwxp5H8VEKbI5OV7nVr6hwBlaf7vJfkkCJV8=",
+  "Hash": "Je8ZX0RX0azcbLDDgIBiFCJulWrukokn5Ud6pE+k9aI=",
   "Source": "bootstrap",
   "BasePath": "_content/bootstrap",
   "Mode": "Default",
@@ -604,6 +604,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Images/Slideshow/8_b.jpg"
+    },
+    {
+      "Identity": "/home/dave/c#/bootstrap/wwwroot/Info/AS-IS.pdf",
+      "SourceId": "bootstrap",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/dave/c#/bootstrap/wwwroot/",
+      "BasePath": "_content/bootstrap",
+      "RelativePath": "Info/AS-IS.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Info/AS-IS.pdf"
     },
     {
       "Identity": "/home/dave/c#/bootstrap/wwwroot/Info/Rules.pdf",
