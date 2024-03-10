@@ -1,14 +1,14 @@
 @{
-    ViewData["Title"] = "Aout Us Page";
-}
+    ViewData["Title"] = "About Us Page";
 
- 
+   // Layout = "_Layout";
+}
 
 <div class="container">
     <img src="~/Images/Lake_Placid_Trans.png" alt="Lake Placid Banner" width="100%" border="0" style="margin:0px; padding:0px;">
 
     <div class="row">
-        <div class="col-sm-3" style="background-color:lightgray">
+        <div class="col-sm-3 carousel_lp" style="background-color:lightgray">
       
           <p>
             <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
@@ -30,17 +30,19 @@
             <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
             <a href="@Url.Action("Homes", "home")"  class="menubar">Homes Available</a>
           </p>
-			<p>
-		  <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
-            <a href="@Url.Action("Calendar", "home")"  class="menubar">Calendar</a>
-          </p> 
-		  <p>
-           <!-- <img src="Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">--->
-          <!--  <a href="Announcements.html" class="menubar">Announcements</a>--->
+          <p>
+          <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
+                <a href="@Url.Action("Calendar", "home")"  class="menubar">Calendar</a>
+              </p> 
+              <!--
+          <p>
+           <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
+           <a href="https://weather.com/weather/today/l/07473c243a75921a5e20aac8f7ad66b31fcd9b3bf1dcef2860aeeecf2957bb23" class="menubar">Weather</a>
           </p>
+          -->
           <p>
 		       <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
-               <a href="Rules.html" class="menubar">Park Rules</a>
+               <a href="@Url.Action("Rules", "home")"  class="menubar">Park Rules</a>
           </p>
  
          <br>
@@ -52,18 +54,43 @@
 
             Largo, FL 33770
           </p>
-                    <!--
+                     
+          <p>
+          <p>
+             <a class="menubar" style="font-size:18px;" href="mailto:info@lakeplacidpark.com">info@lakeplacidpark.com</a>
+             <br/>
+             <a class="menubar" style="font-size:18px;" href="https://weather.com/weather/today/l/07473c243a75921a5e20aac8f7ad66b31fcd9b3bf1dcef2860aeeecf2957bb23">
+            <!-- <a class="menubar" style="font-size:18px;" href="https://weather.com/weather/today/l/07473c243a75921a5e20aac8f7ad66b31fcd9b3bf1dcef2860aeeecf2957bb23">
+            -->
+             <br/>Weather</a>
+             <br>
+              
+             <a   class="menubar" style="font-size:18px;" href="https://www.pcpao.gov/gis.html?v=5&home=&xmin=-9217398.220841866&ymin=3239075.856069011&xmax=-9215628.225905787&ymax=3240129.253864977&basemap=BaseMapParcelAerials&sales=&scale=4513.988705&parcel=27-29-15-48376-000-0011">
+             <br/> Pinellas Assessor</a>
+             <!--
+                <script type="text/javascript" src="http://voap.weather.com/weather/oap/USFL0271?template=TRVLV&par=3000000007&unit=0&key=twciweatherwidget"></script> 
+                 <br/>
+             Assessor Maps</a>
+                <script type="text/javascript" src="https://www.pcpao.gov/gis.html?v=5&home=&xmin=-9217512.876384191&ymin=3238960.0061980034&xmax=-9215742.881448112&ymax=3240014.5983225363&basemap=BaseMapParcelAerials&sales=&scale=4513.988705&parcel="></script> 
+                -->
+       
+         </p>
+         <!--   
           <p>
             <a class="menubar" style="font-size:18px;" href="mailto:info@lakeplacidpark.com">info@lakeplacidpark.com</a>
-  <script type="text/javascript" src="http://voap.weather.com/weather/oap/USFL0271?template=TRVLV&par=3000000007&unit=0&key=twciweatherwidget"></script> 
+             <a class="menubar" style="font-size:18px;" href="https://weather.com/weather/today/l/07473c243a75921a5e20aac8f7ad66b31fcd9b3bf1dcef2860aeeecf2957bb23">
+             <br/>
+             Weather</a>
+                <script type="text/javascript" src="http://voap.weather.com/weather/oap/USFL0271?template=TRVLV&par=3000000007&unit=0&key=twciweatherwidget"></script> 
          </p>
           <br>
  
+           
           <p style="font-size:12px;">
           	Site By: <a href="http://www.smdesignstudios.com" class="menubar" style="font-size:12px;">SM Design Studios</a>
             -->
         </div>
-        <div class="col-sm-9" style="background-color:lightgray">
+        <div class="col-sm-9 carousel_lp" style="background-color:lightgray">
               <!--CONTENT BEGINS HERE-->
             <!--Image-->
             <img src="Images/Slideshow/3_b.jpg" alt="Lake Placid MHP" height="200" width="700" border="0">
@@ -76,19 +103,19 @@
               </h2>
               <p align="left">
               	Lake Placid Park is a beautiful quiet friendly 55+ resident owned community and we are located, in Largo, central Pinellas County, Florida.  Our 99 unit mobile home retirement community surrounds a 3-acre spring-fed lake, excellent for fishing and watching our feathered friends.
-			  </p>
+			        </p>
               <p align="left">
              	 The Board of Directors uses professional management and maintenance companies to provide a safe, well run and affordable place to live.  Lake Placid Park is a member of the ROC Forum (Resident Owned Community) and CAI (Community Association Institute).
               </p>
-              <p align="left">
+               <p align="left">
               	Our residents enjoy:
                 <ul>
                   <li>Beautiful clubhouse with a lending library, bingo, billiards table, live music, resident artwork and Wi-Fi. </li>
                   <li>Activities including, shuffleboard and bocce tournaments, weekly coffee hour, exercise program, Saturday brunch, game nights, monthly dinners, picnics, lunch outings, and weekly Bible study.</li>
                 </ul>
               </p>
-              <p align="left">
-                Our 55+ resident owned community is just minutes away from:
+                <p align="left">
+                   Our 55+ resident owned community is just minutes away from:
                 <ul>
                   <li>Gulf of Mexico beaches</li>
                   <li>A number of Largo City and Pinellas County parks</li>
@@ -112,11 +139,11 @@
               	<ul>
                   <li>Airports (Tampa, St Pete/ Clearwater International)</li>
                   <li>Baseball Spring Training</li>
-				  <li>~ Dunedin Stadium - Toronto Blue Jays</li>
-				  <li>~ George Steinbrenner Field - NY Yankees</li>
-				  <li>~ Brighthouse Stadium - Phillies</li>
-				  <li>Tampa Cruise Terminal</li>
-				  <li>Tampa Theater</li>
+				          <li>Dunedin Stadium - Toronto Blue Jays</li>
+			        	  <li>George Steinbrenner Field - NY Yankees</li>
+				          <li>Brighthouse Stadium - Phillies</li>
+			        	  <li>Tampa Cruise Terminal</li>
+		        		  <li>Tampa Theater</li>
                   <li>Busch  Gardens</li>
                   <li>Orlando Theme Parks </li>
                   <li>Seminole Hard Rock Casino </li>
@@ -124,7 +151,7 @@
                   <li>Derby Lanes dog track </li>
                   <li>Lowery Park Zoo </li>
                   <li>Ruth Eckerd Hall</li>
-                  <li>Tampa Bay Performing Arts Center</li>
+                  <li>Tampa Bay Arts Center</li>
               	</ul>
              </p<>
              <p align="left">
@@ -134,19 +161,23 @@
                 <br>
                 Largo Florida 33770
              </p>
+           
             </div>
           <!--CONTENT ENDS HERE-->
         </div>
+      </div>
     </div>
+  </div>
 </div>
 
 
+
 @section Scripts {
-<script>
+ 
 // A $( document ).ready() block.
-    $( document ).ready(function() {
-        alert('About Us');
-    });
+//    $( document ).ready(function() {
+/alert('About Us');
+ //   });
 	// Find the body element to set a style attribute
 
 <script>
@@ -154,10 +185,10 @@
 	// Find the body element to set a style attribute
 
 	var body = document.getElementsByTagName("body")[0];
-    body.style.backgroundColor = "#040720";
+  body.style.backgroundColor = "#040720";
 
 </script>
 
-</script>
+ 
 
 }

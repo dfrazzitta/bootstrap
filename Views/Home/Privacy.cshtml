@@ -1,31 +1,42 @@
 ﻿@{
-    ViewData["Title"] = "Privacy Policy";
+    ViewData["Title"] = "Administration Page";
 }
-<h1>@ViewData["Title"]</h1>
+<h1>@ViewData["Administration"]</h1>
 
-<p>Tis ill be the admin page.</p>
-<p>Add Homes 4 Sale</p>
-<p>Send Email to visitors.</p>
-<p>Other admin Tasks.</p>
-
-
-
-
-
-@section Scripts {
-// A $( document ).ready() block.
-    $( document ).ready(function() {
-       // alert('About Us');
-    });
-	// Find the body element to set a style attribute
-
-<script>
+<p>This is the admin page</p>
  
-	// Find the body element to set a style attribute
 
-	var body = document.getElementsByTagName("body")[0];
-    body.style.backgroundColor = "#040720";
+<table style="width:100%">
 
-</script>
+    <button type="button" class="editbtn btn btn-primary">Enter Location Data</button>
+    <button type="button" class="editbtn btn btn-primary">Add Images</button>
+    <button type="button" class="editbtn btn btn-primary">Create Message</button>
+    <button type="button" class="editbtn btn btn-primary">Email Real Estate By State</button>
+ 
+</table>
+
+<p>
+   <p> <button type="button" class="editbtn btn btn-primary">Enter Location Data</button>  </p>
+   <p> <button type="button" class="editbtn btn btn-primary">Add Images</button> </p>
+   <p> <button type="button" class="editbtn btn btn-primary">Create Message</button> </p>
+   <p> <button type="button" class="editbtn btn btn-primary">Email Real Estate By State</button> </p>
+</p>
+@section Scripts {
+ 
+ 
+    <script>
+    $( document ).ready(function() {
+       
+
+       $('.editbtn').click(function(){
+          alert('Admin');
+          // $(this).html($(this).html() == 'edit' ? 'modify' : 'edit');
+        });
+     
+    });
+ 	// Find the body element to set a style attribute
+	   var body = document.getElementsByTagName("body")[0];
+       body.style.backgroundColor = "#c6deff";
+    </script>
 
 }

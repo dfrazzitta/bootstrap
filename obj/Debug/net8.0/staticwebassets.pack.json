@@ -5,6 +5,30 @@
       "PackagePath": "staticwebassets/bootstrap.bundle.scp.css"
     },
     {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/Homes/88/1_b.jpg",
+      "PackagePath": "staticwebassets/Homes/88/1_b.jpg"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/Homes/88/3_b.jpg",
+      "PackagePath": "staticwebassets/Homes/88/3_b.jpg"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/Homes/88/4_b.jpg",
+      "PackagePath": "staticwebassets/Homes/88/4_b.jpg"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/Homes/88/6_b.jpg",
+      "PackagePath": "staticwebassets/Homes/88/6_b.jpg"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/Homes/88/88_1.jpg",
+      "PackagePath": "staticwebassets/Homes/88/88_1.jpg"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/Homes/88/8_b.jpg",
+      "PackagePath": "staticwebassets/Homes/88/8_b.jpg"
+    },
+    {
       "Id": "/home/dave/c#/bootstrap/wwwroot/Images/Bullet.png",
       "PackagePath": "staticwebassets/Images/Bullet.png"
     },
@@ -73,6 +97,18 @@
       "PackagePath": "staticwebassets/Images/Slideshow/8_b.jpg"
     },
     {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/Images/ci.jpeg",
+      "PackagePath": "staticwebassets/Images/ci.jpeg"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/Images/fwd.png",
+      "PackagePath": "staticwebassets/Images/fwd.png"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/Info/Rules.pdf",
+      "PackagePath": "staticwebassets/Info/Rules.pdf"
+    },
+    {
       "Id": "/home/dave/c#/bootstrap/wwwroot/SpryAssets/SpryMenuBar.js",
       "PackagePath": "staticwebassets/SpryAssets/SpryMenuBar.js"
     },
@@ -97,12 +133,24 @@
       "PackagePath": "staticwebassets/SpryAssets/SpryMenuBarRightHover.gif"
     },
     {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/css/csstable.css",
+      "PackagePath": "staticwebassets/css/csstable.css"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/css/form-validation.css",
+      "PackagePath": "staticwebassets/css/form-validation.css"
+    },
+    {
       "Id": "/home/dave/c#/bootstrap/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
       "Id": "/home/dave/c#/bootstrap/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/js/form-validation.js",
+      "PackagePath": "staticwebassets/js/form-validation.js"
     },
     {
       "Id": "/home/dave/c#/bootstrap/wwwroot/js/site.js",

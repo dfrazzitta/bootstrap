@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("bootstrap")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+863333f9141d59e5da1743ceaef48df2391b506e")]
 [assembly: System.Reflection.AssemblyProductAttribute("bootstrap")]
 [assembly: System.Reflection.AssemblyTitleAttribute("bootstrap")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

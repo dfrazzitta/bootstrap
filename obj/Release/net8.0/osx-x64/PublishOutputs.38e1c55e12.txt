@@ -1,0 +1,7 @@
+/home/dave/c#/bootstrap/bin/Release/net8.0/osx-x64/publish/bootstrap
+/home/dave/c#/bootstrap/bin/Release/net8.0/osx-x64/publish/appsettings.Development.json
+/home/dave/c#/bootstrap/bin/Release/net8.0/osx-x64/publish/appsettings.json
+/home/dave/c#/bootstrap/bin/Release/net8.0/osx-x64/publish/bootstrap.dll
+/home/dave/c#/bootstrap/bin/Release/net8.0/osx-x64/publish/bootstrap.deps.json
+/home/dave/c#/bootstrap/bin/Release/net8.0/osx-x64/publish/bootstrap.runtimeconfig.json
+/home/dave/c#/bootstrap/bin/Release/net8.0/osx-x64/publish/bootstrap.pdb

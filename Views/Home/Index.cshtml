@@ -1,5 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    
 }
 
 
@@ -10,32 +11,38 @@
 </div>
 -->
 
-        <div id="carouselExampleCaptions" class="carousel slide">
+        <div id="carouselExampleCaptions" class="carousel carousel_lp slide data-bs-ride="carousel"">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active" data-bs-interval="2000">
             <img  src="Images/Slideshow/1_b.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
+                <h5>Entrance</h5>
+                <!--
                 <p>Some representative placeholder content for the first slide.</p>
+                -->
             </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="2000">
             <img   src="Images/Slideshow/3_b.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
+                <h5>Lake & Home</h5>
+                <!--
                 <p>Some representative placeholder content for the second slide.</p>
+                -->
             </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="2000">
             <img  src="Images/Slideshow/6_b.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
+                <h5>Shuffle Board</h5>
+                <!--
                 <p>Some representative placeholder content for the third slide.</p>
+                -->
             </div>
             </div>
         </div>
@@ -52,13 +59,13 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-sm-3" style="background-color:lightgray">
+    <div class="col-sm-3 carousel_lp" style="background-color:lightgray">
           <p>
-            <img src="Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
+            <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
             <a href="/home" class="menubar">Home</a>
           </p>
           <p>
-            <img src="Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
+            <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
             <a href="@Url.Action("AboutUS", "home")" class="menubar">About Us</a>
           </p>
           <p>
@@ -78,8 +85,8 @@
             <a href="@Url.Action("Calendar", "home")"  class="menubar">Calendar</a>
           </p> 
 		  <p>
-           <!-- <img src="Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">--->
-          <!--  <a href="Announcements.html" class="menubar">Announcements</a>--->
+            <img src="Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
+            <a href="@Url.Action("NewProperty", "home")" class="menubar">Ideas</a>
           </p>
           <p>
 		       <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
@@ -95,16 +102,31 @@
             Largo, FL 33770
           </p>
           <p>
-            <a class="menubar" style="font-size:18px;" href="mailto:info@lakeplacidpark.com">info@lakeplacidpark.com</a>
-  <script type="text/javascript" src="http://voap.weather.com/weather/oap/USFL0271?template=TRVLV&par=3000000007&unit=0&key=twciweatherwidget"></script> 
+             <a class="menubar" style="font-size:18px;" href="mailto:info@lakeplacidpark.com">info@lakeplacidpark.com</a>
+             <br/>
+             <a class="menubar" style="font-size:18px;" href="https://weather.com/weather/today/l/07473c243a75921a5e20aac8f7ad66b31fcd9b3bf1dcef2860aeeecf2957bb23">
+            <!-- <a class="menubar" style="font-size:18px;" href="https://weather.com/weather/today/l/07473c243a75921a5e20aac8f7ad66b31fcd9b3bf1dcef2860aeeecf2957bb23">
+            -->
+             <br/>Weather</a>
+             <br>
+              
+             <a   class="menubar" style="font-size:18px;" href="https://www.pcpao.gov/gis.html?v=5&home=&xmin=-9217398.220841866&ymin=3239075.856069011&xmax=-9215628.225905787&ymax=3240129.253864977&basemap=BaseMapParcelAerials&sales=&scale=4513.988705&parcel=27-29-15-48376-000-0011">
+             <br/> Pinellas Assessor</a>
+             <!--
+                <script type="text/javascript" src="http://voap.weather.com/weather/oap/USFL0271?template=TRVLV&par=3000000007&unit=0&key=twciweatherwidget"></script> 
+                 <br/>
+             Assessor Maps</a>
+                <script type="text/javascript" src="https://www.pcpao.gov/gis.html?v=5&home=&xmin=-9217512.876384191&ymin=3238960.0061980034&xmax=-9215742.881448112&ymax=3240014.5983225363&basemap=BaseMapParcelAerials&sales=&scale=4513.988705&parcel="></script> 
+                -->
+       
          </p>
           <br>
-          <!--
+          <!--  https://www.pcpao.gov/gis.html?v=5&home=&xmin=-9217512.876384191&ymin=3238960.0061980034&xmax=-9215742.881448112&ymax=3240014.5983225363&basemap=BaseMapParcelAerials&sales=&scale=4513.988705&parcel=
           <p style="font-size:12px;">
           	Site By: <a href="http://www.smdesignstudios.com" class="menubar" style="font-size:12px;">SM Design Studios</a>
             -->
     </div>
-    <div class="col-sm-9" style="background-color:lightgray">
+    <div class="col-sm-9 carousel_lp" style="background-color:lightgray">
             <div style="padding:0px 10px;">
               <!--Title-->
               <h1 align="center" style="margin:0px 0px; padding:0px 0px;">
@@ -129,6 +151,8 @@
                  <p align="right" style="padding-right:50px;">
                 - Lake Placid MHP
               </p>
+              <!--https://www.pcpao.gov/gis.html?v=5&home=&xmin=-9217440.197953328&ymin=3239052.1159565877&xmax=-9215670.20301725&ymax=3240106.7080811206&basemap=BaseMapParcelAerials&sales=&scale=4513.988705&parcel=27-29-15-48376-000-0011
+              -->
             </div>
     </div>
  
@@ -140,11 +164,35 @@
 
 <script>
  
+ // A $( document ).ready() block.
+$( document ).ready(function() {
+   // var $box = document.getElementsByTagName("body")[0];
+      var ls = ['rgb(255,0,0)', 'rgb(0,255,0)', 'rgb(0,0,255)'];
+
+      $.each(ls, function (i, x) {
+        //alert('stop');
+          setTimeout(function () {
+              	var body = document.getElementsByTagName("body")[0];
+               // body.style.backgroundColor = x;
+          }, 2000 + (i+1));
+          if (i === 2)
+             i = 0;
+             console.log(i);
+      });
+
+ 
+});
+</script>
+
+<script>
+ 
 	// Find the body element to set a style attribute
 
 	var body = document.getElementsByTagName("body")[0];
     body.style.backgroundColor = "#040720";
 
 </script>
+
+  
 
 }
