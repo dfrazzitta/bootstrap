@@ -1,69 +1,56 @@
 @{
     ViewData["Title"] = "About Us Page";
 
-   // Layout = "_Layout";
+    Layout = "_Layout";
 }
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 <div class="container">
     <img title="Click to learn about Deed Restricted" src="~/Images/Lake_Placid_Trans.png" alt="Lake Placid Banner" width="100%" border="0" style="margin:0px; padding:0px;">
 
     <div class="row">
-        <div class="col-sm-3 carousel_lp" style="background-color:lightgray">
-      
+    <div class="col-sm-3 carousel_lp" style="background-color:lightgray">
           <p>
-            <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
-            <a href="@Url.Action("Index", "home")"  class="menubar">Home</a>
+          <a href="@Url.Action("Index", "home")" <i class="glyphicon glyphicon-cloud"></i>Home</a>
           </p>
           <p>
-            <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
-            <a href="@Url.Action("AboutUS", "home")" class="menubar">About Us</a>
+            <a href="@Url.Action("AboutUS", "home")" <span class="glyphicon glyphicon-user">About</a>
           </p>
           <p>
-            <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
-            <a href="@Url.Action("Location", "home")" class="menubar">Location</a>
+            <a href="@Url.Action("Location", "home")" <span class="glyphicon glyphicon-star">Location</a>
           </p>
           <p>
-            <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
-            <a href="@Url.Action("ParkPlan", "home")" class="menubar">Park Plan</a>
+            <a href="@Url.Action("ParkPlan", "home")" <span class="glyphicon glyphicon-camera">Park</a>
           </p>
           <p>
-            <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
-            <a href="@Url.Action("Homesx", "home")"  class="menubar">Homes Available</a>
+            <a href="@Url.Action("Homesx", "home")"  <span class="glyphicon glyphicon-circle-arrow-right"></span>Homes</a>
+          </p>
+			<p>
+          <a href="@Url.Action("Calendar", "home")"  <span class="glyphicon glyphicon-calendar"></span>Calendar</a>
+          </p> 
+		  <p>
+          <a href="@Url.Action("NewProperty", "home")" class="menubar">Ideas</a>
           </p>
           <p>
-          <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
-                <a href="@Url.Action("Calendar", "home")"  class="menubar">Calendar</a>
-              </p> 
-              <!--
-          <p>
-           <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
-           <a href="https://weather.com/weather/today/l/07473c243a75921a5e20aac8f7ad66b31fcd9b3bf1dcef2860aeeecf2957bb23" class="menubar">Weather</a>
-          </p>
-          -->
-          <p>
-		       <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
-               <a href="@Url.Action("Rules", "home")"  class="menubar">Park Rules</a>
-          </p>
- 
+          <a href="@Url.Action("Rules", "home")" <span class="glyphicon glyphicon-eye-open"></span>Rules</a>
+        </p>
          <br>
         <p>
-           
+          
           <a target = "blank" href = 'https://www.youtube.com/channel/UC-gCUMK_EGUqJ7P9VA7BJmQ'><i class="fab fa-youtube"></i></a>
           <a target = "blank" href='https://twitter.com/codingCommander' ><i class="fab fa-twitter"></i></a>
           <a target = "blank" href='https://www.facebook.com/codingcommanders/'><i class='fab fa-facebook'></i></a>
           <a target = "blank" href='https://www.instagram.com/codingcommanders'><i class='fab fa-instagram'></i></a>
           <a target="blank" href="https://discordapp.com/invite/AeUvu7v"> <i class="fab fa-discord"></i></a>
-        </p> 
+        </p>
           <p>
             <strong>Lake Placid MHP</strong>
           </p>
           <p>
-            980 7th St. NW
-
-            Largo, FL 33770
+            <strong>980 7th St. NW</strong> 
+            <strong>Largo, FL 33770</strong> 
           </p>
-   
-          <p>
           <p>
              <a class="menubar" style="font-size:18px;" href="mailto:info@lakeplacidpark.com">info@lakeplacidpark.com</a>
              <br/>
@@ -72,33 +59,13 @@
             -->
              <br/>Weather</a>
              <br>
-              
              <a   class="menubar" style="font-size:18px;" href="https://www.pcpao.gov/gis.html?v=5&home=&xmin=-9217398.220841866&ymin=3239075.856069011&xmax=-9215628.225905787&ymax=3240129.253864977&basemap=BaseMapParcelAerials&sales=&scale=4513.988705&parcel=27-29-15-48376-000-0011">
              <br/> Pinellas Assessor</a>
-             <!--
-                <script type="text/javascript" src="http://voap.weather.com/weather/oap/USFL0271?template=TRVLV&par=3000000007&unit=0&key=twciweatherwidget"></script> 
-                 <br/>
-             Assessor Maps</a>
-                <script type="text/javascript" src="https://www.pcpao.gov/gis.html?v=5&home=&xmin=-9217512.876384191&ymin=3238960.0061980034&xmax=-9215742.881448112&ymax=3240014.5983225363&basemap=BaseMapParcelAerials&sales=&scale=4513.988705&parcel="></script> 
-                -->
-       
-         </p>
-         <!--   
-          <p>
-            <a class="menubar" style="font-size:18px;" href="mailto:info@lakeplacidpark.com">info@lakeplacidpark.com</a>
-             <a class="menubar" style="font-size:18px;" href="https://weather.com/weather/today/l/07473c243a75921a5e20aac8f7ad66b31fcd9b3bf1dcef2860aeeecf2957bb23">
-             <br/>
-             Weather</a>
-                <script type="text/javascript" src="http://voap.weather.com/weather/oap/USFL0271?template=TRVLV&par=3000000007&unit=0&key=twciweatherwidget"></script> 
          </p>
           <br>
- 
-           
-          <p style="font-size:12px;">
-          	Site By: <a href="http://www.smdesignstudios.com" class="menubar" style="font-size:12px;">SM Design Studios</a>
-            -->
-        </div>
+    </div>
         <div class="col-sm-9 carousel_lp" style="background-color:lightgray">
+          <br/>
               <!--CONTENT BEGINS HERE-->
             <!--Image-->
             <img src="~/Images/Slideshow/3_b.jpg" alt="Lake Placid MHP" class="carousel_lp" style="height:200px; width:100%">
@@ -193,8 +160,8 @@
  
 	// Find the body element to set a style attribute
 
-	//var body = document.getElementsByTagName("body")[0];
- // body.style.backgroundColor = "#040720";
+	var body = document.getElementsByTagName("body")[0];
+  body.style.backgroundColor = "#040720";
 
 </script>
 }

@@ -413,6 +413,190 @@
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/css/icons-2x.png",
+      "PackagePath": "staticwebassets/res/css/icons-2x.png"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/css/icons.png",
+      "PackagePath": "staticwebassets/res/css/icons.png"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/css/jsgrid.css",
+      "PackagePath": "staticwebassets/res/css/jsgrid.css"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/css/theme.css",
+      "PackagePath": "staticwebassets/res/css/theme.css"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/db.js",
+      "PackagePath": "staticwebassets/res/db.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/demos.css",
+      "PackagePath": "staticwebassets/res/demos.css"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/dist/jsgrid-theme.css",
+      "PackagePath": "staticwebassets/res/dist/jsgrid-theme.css"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/dist/jsgrid-theme.min.css",
+      "PackagePath": "staticwebassets/res/dist/jsgrid-theme.min.css"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/dist/jsgrid.css",
+      "PackagePath": "staticwebassets/res/dist/jsgrid.css"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/dist/jsgrid.js",
+      "PackagePath": "staticwebassets/res/dist/jsgrid.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/dist/jsgrid.min.css",
+      "PackagePath": "staticwebassets/res/dist/jsgrid.min.css"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/dist/jsgrid.min.js",
+      "PackagePath": "staticwebassets/res/dist/jsgrid.min.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/external/jquery/jquery-1.8.3.js",
+      "PackagePath": "staticwebassets/res/external/jquery/jquery-1.8.3.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/external/qunit/qunit-1.10.0.css",
+      "PackagePath": "staticwebassets/res/external/qunit/qunit-1.10.0.css"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/external/qunit/qunit-1.10.0.js",
+      "PackagePath": "staticwebassets/res/external/qunit/qunit-1.10.0.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/fields/jsgrid.field.checkbox.js",
+      "PackagePath": "staticwebassets/res/src/fields/jsgrid.field.checkbox.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/fields/jsgrid.field.control.js",
+      "PackagePath": "staticwebassets/res/src/fields/jsgrid.field.control.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/fields/jsgrid.field.number.js",
+      "PackagePath": "staticwebassets/res/src/fields/jsgrid.field.number.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/fields/jsgrid.field.select.js",
+      "PackagePath": "staticwebassets/res/src/fields/jsgrid.field.select.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/fields/jsgrid.field.text.js",
+      "PackagePath": "staticwebassets/res/src/fields/jsgrid.field.text.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/fields/jsgrid.field.textarea.js",
+      "PackagePath": "staticwebassets/res/src/fields/jsgrid.field.textarea.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/i18n/Ko.js",
+      "PackagePath": "staticwebassets/res/src/i18n/Ko.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/i18n/cs.js",
+      "PackagePath": "staticwebassets/res/src/i18n/cs.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/i18n/de.js",
+      "PackagePath": "staticwebassets/res/src/i18n/de.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/i18n/el.js",
+      "PackagePath": "staticwebassets/res/src/i18n/el.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/i18n/es.js",
+      "PackagePath": "staticwebassets/res/src/i18n/es.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/i18n/fa.js",
+      "PackagePath": "staticwebassets/res/src/i18n/fa.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/i18n/fr.js",
+      "PackagePath": "staticwebassets/res/src/i18n/fr.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/i18n/he.js",
+      "PackagePath": "staticwebassets/res/src/i18n/he.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/i18n/it.js",
+      "PackagePath": "staticwebassets/res/src/i18n/it.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/i18n/ja.js",
+      "PackagePath": "staticwebassets/res/src/i18n/ja.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/i18n/ka.js",
+      "PackagePath": "staticwebassets/res/src/i18n/ka.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/i18n/lt.js",
+      "PackagePath": "staticwebassets/res/src/i18n/lt.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/i18n/pl.js",
+      "PackagePath": "staticwebassets/res/src/i18n/pl.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/i18n/pt-br.js",
+      "PackagePath": "staticwebassets/res/src/i18n/pt-br.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/i18n/pt.js",
+      "PackagePath": "staticwebassets/res/src/i18n/pt.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/i18n/ru.js",
+      "PackagePath": "staticwebassets/res/src/i18n/ru.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/i18n/tr.js",
+      "PackagePath": "staticwebassets/res/src/i18n/tr.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/i18n/zh-cn.js",
+      "PackagePath": "staticwebassets/res/src/i18n/zh-cn.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/i18n/zh-tw.js",
+      "PackagePath": "staticwebassets/res/src/i18n/zh-tw.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/jsgrid.core.js",
+      "PackagePath": "staticwebassets/res/src/jsgrid.core.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/jsgrid.field.js",
+      "PackagePath": "staticwebassets/res/src/jsgrid.field.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/jsgrid.load-indicator.js",
+      "PackagePath": "staticwebassets/res/src/jsgrid.load-indicator.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/jsgrid.load-strategies.js",
+      "PackagePath": "staticwebassets/res/src/jsgrid.load-strategies.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/jsgrid.sort-strategies.js",
+      "PackagePath": "staticwebassets/res/src/jsgrid.sort-strategies.js"
+    },
+    {
+      "Id": "/home/dave/c#/bootstrap/wwwroot/res/src/jsgrid.validation.js",
+      "PackagePath": "staticwebassets/res/src/jsgrid.validation.js"
+    },
+    {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.bootstrap.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

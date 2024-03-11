@@ -58,6 +58,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/dave/c\#/bootstrap/Views/Home/residence.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9yZXNpZGVuY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/dave/c\#/bootstrap/Views/Home/rules.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9ydWxlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
