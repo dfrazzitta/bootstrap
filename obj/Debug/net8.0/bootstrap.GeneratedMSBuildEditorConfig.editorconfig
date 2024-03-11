@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/dave/c#/bootstrap
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/dave/c\#/bootstrap/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/dave/c\#/bootstrap/Views/Home/AboutUs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BYm91dFVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -28,6 +32,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/home/dave/c\#/bootstrap/Views/Home/Homes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Ib21lcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/dave/c\#/bootstrap/Views/Home/HomesX.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Ib21lc1guY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/dave/c\#/bootstrap/Views/Home/Index.cshtml]
@@ -73,3 +81,7 @@ build_metadata.AdditionalFiles.CssScope =
 [/home/dave/c\#/bootstrap/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-wuk7giyyna
+
+[/home/dave/c\#/bootstrap/Views/Shared/_layoutadmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19sYXlvdXRhZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-36b0i3uadb

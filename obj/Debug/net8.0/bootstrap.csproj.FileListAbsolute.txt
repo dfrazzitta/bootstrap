@@ -29,3 +29,4 @@
 /home/dave/c#/bootstrap/obj/Debug/net8.0/bootstrap.genruntimeconfig.cache
 /home/dave/c#/bootstrap/obj/Debug/net8.0/ref/bootstrap.dll
 /home/dave/c#/bootstrap/obj/Debug/net8.0/bootstrap.sourcelink.json
+/home/dave/c#/bootstrap/obj/Debug/net8.0/scopedcss/Views/Shared/_layoutadmin.cshtml.rz.scp.css

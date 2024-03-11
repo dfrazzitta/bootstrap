@@ -10,7 +10,7 @@
       
           <p>
             <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
-            <a href="/home" class="menubar">Home</a>
+            <a href="@Url.Action("Index", "home")"  class="menubar">Home</a>
           </p>
           <p>
             <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
@@ -26,7 +26,7 @@
           </p>
           <p>
             <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
-            <a href="@Url.Action("Homes", "home")"  class="menubar">Homes Available</a>
+            <a href="@Url.Action("Homesx", "home")"  class="menubar">Homes Available</a>
           </p>
 			<p>
 		  <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
@@ -43,7 +43,7 @@
  
          <br>
          <p>
-          <a target = "blank" href = 'https://www.twitch.tv/daisychaincosplay'><i class="fab fa-twitch"></i></a>
+          
           <a target = "blank" href = 'https://www.youtube.com/channel/UC-gCUMK_EGUqJ7P9VA7BJmQ'><i class="fab fa-youtube"></i></a>
           <a target = "blank" href='https://twitter.com/codingCommander' ><i class="fab fa-twitter"></i></a>
           <a target = "blank" href='https://www.facebook.com/codingcommanders/'><i class='fab fa-facebook'></i></a>
@@ -75,7 +75,7 @@
     <div class="col-sm-9 carousel_lp" style="background-color:lightgray">
             <!--CONTENT BEGINS HERE-->
             <!--Image-->
-            <img  src="~/Images/Slideshow/6_b.jpg" alt="Lake Placid MHP" height="200" width="700" border="0">
+            <img  src="~/Images/Slideshow/6_b.jpg" alt="Lake Placid MHP" class="carousel_lp" style="height:200px; width:100%"> <!--   height="200" width="700" border="0">  -->
             <!--Alignment Div-->
             <div style="padding:0px 10px; background-color:lightgray">
               <!--Sub Header-->
@@ -84,7 +84,9 @@
 
  
               <div align="center">
-              	<a href="https://www.pcpao.gov/gis.html?v=5&home=&xmin=-9217398.220841866&ymin=3239075.856069011&xmax=-9215628.225905787&ymax=3240129.253864977&basemap=BaseMapParcelAerials&sales=&scale=4513.988705&parcel=27-29-15-48376-000-0011"><img src="~/Images/Lake_Placid_Map_NoAvail.jpg" alt="Lake Placid Park Plan" width="600" height="600" border="0" usemap="#Map"></a>
+              	<!-- <a href="https://www.pcpao.gov/gis.html?v=5&home=&xmin=-9217398.220841866&ymin=3239075.856069011&xmax=-9215628.225905787&ymax=3240129.253864977&basemap=BaseMapParcelAerials&sales=&scale=4513.988705&parcel=27-29-15-48376-000-0011"><img src="~/Images/Lake_Placid_Map_NoAvail.jpg" alt="Lake Placid Park Plan" width="600" height="600" border="0" usemap="#Map"></a>
+                -->
+                	<a title="Click for TaxAccessor" href="https://www.pcpao.gov/gis.html?v=5&home=&xmin=-9217398.220841866&ymin=3239075.856069011&xmax=-9215628.225905787&ymax=3240129.253864977&basemap=BaseMapParcelAerials&sales=&scale=4513.988705&parcel=27-29-15-48376-000-0011"><img src="~/Images/Lake_Placid_Map_NoAvail.jpg" alt="Lake Placid Park Plan" width="70%" height="70%" border="0" usemap="#Map"></a>
               </div>
             </div>
           <!--CONTENT ENDS HERE-->

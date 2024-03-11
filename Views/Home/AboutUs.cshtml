@@ -5,14 +5,14 @@
 }
 
 <div class="container">
-    <img src="~/Images/Lake_Placid_Trans.png" alt="Lake Placid Banner" width="100%" border="0" style="margin:0px; padding:0px;">
+    <img title="Click to learn about Deed Restricted" src="~/Images/Lake_Placid_Trans.png" alt="Lake Placid Banner" width="100%" border="0" style="margin:0px; padding:0px;">
 
     <div class="row">
         <div class="col-sm-3 carousel_lp" style="background-color:lightgray">
       
           <p>
             <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
-            <a href="/home" class="menubar">Home</a>
+            <a href="@Url.Action("Index", "home")"  class="menubar">Home</a>
           </p>
           <p>
             <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
@@ -28,7 +28,7 @@
           </p>
           <p>
             <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
-            <a href="@Url.Action("Homes", "home")"  class="menubar">Homes Available</a>
+            <a href="@Url.Action("Homesx", "home")"  class="menubar">Homes Available</a>
           </p>
           <p>
           <img src="~/Images/Bullet.png" alt="Bullet" border="0" height="9" width="6" style="padding-right:5px;">
@@ -47,7 +47,7 @@
  
          <br>
         <p>
-          <a target = "blank" href = 'https://www.twitch.tv/daisychaincosplay'><i class="fab fa-twitch"></i></a>
+           
           <a target = "blank" href = 'https://www.youtube.com/channel/UC-gCUMK_EGUqJ7P9VA7BJmQ'><i class="fab fa-youtube"></i></a>
           <a target = "blank" href='https://twitter.com/codingCommander' ><i class="fab fa-twitter"></i></a>
           <a target = "blank" href='https://www.facebook.com/codingcommanders/'><i class='fab fa-facebook'></i></a>
@@ -101,7 +101,8 @@
         <div class="col-sm-9 carousel_lp" style="background-color:lightgray">
               <!--CONTENT BEGINS HERE-->
             <!--Image-->
-            <img src="Images/Slideshow/3_b.jpg" alt="Lake Placid MHP" height="200" width="700" border="0">
+            <img src="~/Images/Slideshow/3_b.jpg" alt="Lake Placid MHP" class="carousel_lp" style="height:200px; width:100%">
+                 <!-- height="200" width="700" border="0"> -->
              
             <!--Alignment Div-->
             <div style="padding:0px 10px;">
@@ -125,7 +126,7 @@
                 <p align="left">
                    Our 55+ resident owned community is just minutes away from:
                 <ul>
-                  <li>Gulf of Mexico beaches</li>
+                  <li><a href="https://www.visitflorida.com/places-to-go/central-west/indian-rocks-beach/">Gulf of Mexico beachs</a></li> <!-- <a>Gulf of Mexico beaches</a></li> -->
                   <li>A number of Largo City and Pinellas County parks</li>
                   <li>Pinellas Bike Trail which runs from St Petersburg to Tarpon Springs  (34 miles long)</li>
                   <li>Public and private golf courses</li>
@@ -196,7 +197,4 @@
  // body.style.backgroundColor = "#040720";
 
 </script>
-
- 
-
 }
