@@ -1,7 +1,7 @@
 @{
     ViewData["Title"] = "Admin Page";
 
-    Layout = "_Layoutadmin";
+    Layout = null ;//"_Layoutadmin";
 }
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -23,6 +23,8 @@
     <!-- Bootstrap core CSS -->
     <link href="~/lib/bootstrap/dist/js/css/bootstrap-grid.min.css" rel="stylesheet">
     <link href="~/css/csstable.css" rel="stylesheet">
+    <script src="~/res/external/jquery/jquery-1.8.3.js"></script>
+
 
     <style>
       .bd-placeholder-img {
@@ -487,9 +489,19 @@
       <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
     </div>
   </div>
+ 
 </div>
 
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
+    <script src="~/js/form-validation.js"></script>
+
+     <scripts>
+        $(function() {
+            console.log( "ready!" );
+            alert('hi');
+        });
+    </scripts>
 <!-- the end -->
 
   <footer class="my-5 pt-5 text-muted text-center text-small">
@@ -503,33 +515,12 @@
 </div>
 
 
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+ 
 
-    <script src="~/js/form-validation.js"></script>
   </body>
+
+ 
 </html>
 
 
-
-
-@section Scripts {
-// A $( document ).ready() block.
-    $( document ).ready(function() {
-       // alert('About Us');
-    });
-	// Find the body element to set a style attribute
-
- function Map()
- {
-    alert('ji map');
- }
-<script>
- 
-	// Find the body element to set a style attribute
-
-	var body = document.getElementsByTagName("body")[0];
-    body.style.backgroundColor = "#040720";
-
-</script>
-
-}
+  
