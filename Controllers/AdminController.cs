@@ -4,7 +4,10 @@ using bootstrap.Models;
 
 namespace bootstrap.Controllers;
 
-public class AdminController : Controller
+
+[Route("Admin")]
+[Route("Admin/Index")]
+class AdminController : Controller
 {
     private readonly ILogger<AdminController> _logger;
 
@@ -18,6 +21,8 @@ public class AdminController : Controller
         return View();
     }
 
+
+/*
     public IActionResult Privacy()
     {
         return View();
@@ -65,6 +70,7 @@ public class AdminController : Controller
         return View();
     }
 
+*/
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
